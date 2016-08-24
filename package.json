@@ -1,0 +1,64 @@
+{
+  "name": "hui",
+  "version": "0.0.1",
+  "description": "HUI provides better UI components in the perspective of user-friendly in any web environment.",
+  "main": [
+    "dist/hui.min.js",
+    "dist/hui.min.css",
+    "dist/hui-core.css"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hivelab-open-projects/hui.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-preset-es2015": "^6.13.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-header": "^1.8.8",
+    "gulp-inject": "^4.1.0",
+    "gulp-jsbeautifier": "^2.0.3",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "run-sequence": "^1.2.2"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS",
+    "JS",
+    "JavaScript",
+    "framework",
+    "bootstrap",
+    "front-end",
+    "frontend",
+    "web development",
+    "free",
+    "MIT"
+  ],
+  "author": "andrewsohn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hivelab-open-projects/hui/issues"
+  },
+  "categories": [
+    "Frameworks",
+    "UI"
+  ],
+  "maintainers": [
+    {
+      "name": "Andrew",
+      "email": "andrewsohn@hivelab.co.kr"
+    }
+  ],
+  "homepage": "https://github.com/hivelab-open-projects/hui#readme"
+}

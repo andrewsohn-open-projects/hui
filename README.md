@@ -8,39 +8,40 @@ HUI library only requires the user to load a single package file.
 Access to the hui class must then be configured in the markup.
 
 ```html
-<link rel="stylesheet" href="dist/hui.min.css" />
+<link rel="stylesheet" href="dist/hui-ui.min.css" />
 <link rel="stylesheet" href="dist/hui-core.min.css" />
 <body class="hui">...</body>
 ```
 As the script works only with jQuery 1.8 or higher, it is necessary to load the jQuery library first.
 
 ```html
-<script src="lib/jquery-1.8.0.min.js"></script>
-<script src="lib/hui-core.min.js"></script>
-<script src="dist/hui.min.js"></script>
+<script src="libs/jquery-1.8.3.min.js"></script>
+<script src="dist/hui-core.min.js"></script>
+<script src="dist/hui-ui.min.js"></script>
 ```
 
 ### Installing in command
 ```
 npm install hui
-bower install hui
-jamjs install hui
 ```
 
 ### To build the project
 Build using a gulp in HUI Library
 ```
-gulp       // Build all processes
-gulp js    // Merge and Minifiy JavaScript files
-gulp css   // Compile LESS files
-gulp test  // Unit Tests
+gulp				// Build all processes
+gulp core-compile	// Merge and Transpile Core JavaScript files
+gulp core-uglify	// Minifiy Core JavaScript files
+gulp css			// Compile SCSS files
+gulp test			// Unit Tests
 ```
 After the build output is shown below.
 ```
-dist/hui.js
-dist/hui.min.js
-dist/hui.css
-dist/hui.min.css
+dist/hui-core.js
+dist/hui-core.min.js
+dist/hui-ui.js
+dist/hui-ui.min.js
+dist/hui-ui.css
+dist/hui-ui.min.css
 dist/hui-core.css
 dist/hui-core.min.css
 dist/hui-dark.css
